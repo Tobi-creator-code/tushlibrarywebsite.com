@@ -1,0 +1,176 @@
+.grid-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    column-gap: 10px;
+    row-gap: 30px;
+
+}
+
+@media (max-width: 1000px) {
+    .grid-info {
+        grid-template-columns: 1fr 1fr;
+
+    }
+}
+    @media(min-width: 1000px) {
+        .grid-info{
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+    }
+
+
+body{
+    margin: 0;
+    padding-top: 70px;
+    font-family: trebuchet MS;
+    
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: white;
+    height: 60px;
+    padding-top: 20px;
+}
+.left-side{
+    margin-top: 10px;
+    margin-left: 10px;
+  font-family: Trebuchet MS;
+  cursor: pointer;
+    white-space: nowrap;
+}
+
+
+
+.left-side:hover{
+    text-decoration: underline;
+    color: lightblue;
+}
+.middle-side{
+    display: flex;
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 20px;
+   
+}
+
+.right-side {
+width: 200px;
+position: relative;
+margin-right: 24px;
+cursor: pointer;
+justify-content: center;
+
+}
+
+ .profile-picture{
+    width: 30px;
+    border-radius: 15px;
+    margin-right: 20px;
+    cursor: pointer;
+    margin-left: 180px;
+    margin-top: 5px;
+
+
+    }
+
+    
+    
+     .picture .Profile{
+        position: absolute;
+        font-family: Cambria;
+        font-size: 11px;
+        color: white;
+        background-color: rgba(54, 50, 50, 0.589);
+        padding-left: 2px;
+        padding-top: 2px;
+        padding-right: 2px;
+        padding-bottom: 2px;
+        transition-duration: opacity 2s;
+        opacity: 0;
+        margin-left: 180px;
+    }
+
+
+.picture:hover .Profile:hover{
+    opacity: 1;
+}
+
+.search{
+    font-family: Tahoma;
+    flex: 1;
+    border-color: black;
+    width: 40px;
+    height: 30px
+    
+   
+}
+
+.image-one{
+  width: 100%;
+}
+.image-two{
+    width: 30px;
+    border-radius: 20px;
+    
+    cursor: pointer;
+}
+
+.sign-outone{
+    display: inline-block;
+    font-family: arial;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.918);
+    margin-top: 0;
+    
+
+}
+.Rex{
+    font-family: Trebuchet MS;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    cursor: pointer;
+
+}
+.box-two{
+    display: inline-block;
+    margin-top: 0;
+}
+.box-three{
+    display: inline-block;
+    vertical-align: 10px;
+}
+
+.box-five{
+    margin-top: 0;
+    vertical-align: 20px;
+}
+
+.Library-one{
+    cursor: pointer;
+    background-color: blue;
+    border-color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0;
+    font-family: arial black;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+}
+
+.box-six{
+    display: inline-block;
+}
